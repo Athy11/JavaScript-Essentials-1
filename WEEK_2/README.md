@@ -6,9 +6,9 @@
 - `var` → Older way of declaring variables (try to avoid using it).
 
 ```javascript
-let name = "John";
-const age = 30;
-var country = "USA";
+let org = "CNCP";
+const execCount = 26;
+var university = "PUP";
 ```
 
 ### DATA TYPES
