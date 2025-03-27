@@ -44,6 +44,16 @@ These operators perform mathematical operations on numbers. Used for mathematica
 | ++ | Increment (adds 1) |
 | -- | Decrement (subtracts 1) |
 
+```javascript
+let a = 10, b = 5;
+console.log(a + b); // OUTPUT: Addition → 15
+console.log(a - b); // OUTPUT: Subtraction → 5
+console.log(a * b); // OUTPUT: Multiplication → 50
+console.log(a / b); // OUTPUT: Division → 2
+console.log(a % b); // OUTPUT: Modulus (Remainder) → 0
+console.log(a ** 2); // OUTPUT: Exponentiation → 100
+```
+
 ### COMPARISON OPERATORS
 These operations compare two values and return a Boolean value (true or false).
 | Operator | Description |
@@ -57,6 +67,15 @@ These operations compare two values and return a Boolean value (true or false).
 | >= | Greater than or equal to |
 | <= | Less than or equal to |
 
+```javascript
+console.log(10 == "10");  // OUTPUT: true  (checks value only)
+console.log(10 === "10"); // OUTPUT: false (checks value & type)
+console.log(10 != 5);     // OUTPUT: true  (not equal)
+console.log(10 > 5);      // OUTPUT: true  (greater than)
+console.log(10 < 5);      // OUTPUT: false (less than)
+console.log(10 >= 10);    // OUTPUT: true  (greater or equal)
+console.log(10 <= 5);     // OUTPUT: false (less or equal)
+```
 ### LOGICAL OPERATORS
 Logical operators also use Boolean values and help in decision-making by combining the conditions.
 
@@ -65,6 +84,13 @@ Logical operators also use Boolean values and help in decision-making by combini
 `||` - OR OPERATOR (true if at least one condition is true)
 
 `!` - NOT OPERATOR (inverts a Boolean value)
+
+```javascript
+let x = 10, y = 20;
+console.log(x > 5 && y < 30); // OUTPUT: true (AND operator - both conditions must be true)
+console.log(x > 15 || y < 30); // OUTPUT: true (OR operator - at least one condition is true)
+console.log(!(x > 5)); // OUTPUT: false (NOT operator - reverses result)
+```
 
 ### INPUT/OUTPUT OPERATIONS
 These operations handle interactions between the program and the user, such as displaying messages or taking input from the user.
