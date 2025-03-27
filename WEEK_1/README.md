@@ -45,11 +45,34 @@ These tools allows you to program, test, and run JavaScript directly in your bro
    - A hackable text editor by GitHub, but VS Code is now the better alternative.
 
 ## FUNDAMENTALS OF JAVASCRIPT
-| Concept | Description | Example |
-| ----------- | ----------- |----------- |
-| Printing Output	 | Used to display messages in the console. | ```js console.log("Hello, World!"); ``` |
-| Variables | Used to store data. let (changeable), const (fixed). | ```js let name = "John"; const age = 25; ``` |
-| Data Types | JavaScript supports Strings, Numbers, Booleans, Arrays, Objects, etc. | ```js let num = 10; let arr = [1, 2, 3]; let obj = {name: "Alice"}; ``` |
-| Operators | Perform arithmetic and logical operations. | ```js let a = 10, b = 5; console.log(a + b); // 15 ``` |
+**Printing Output**	 
+- Used to display messages in the console.
+```js 
+console.log("Hello, Programming Department Peeps!");
+```
+**Variables**
+- Used to store data. let (changeable), const (fixed).
+```js 
+let name = "Niki"; const age = 25;
+```
+**Data Types**
+- JavaScript supports Strings, Numbers, Booleans, Arrays, Objects, etc.
+```js 
+let num = 10; let arr = [1, 2, 3]; let obj = {name: "Alice Go"};
+```
+**Operators**
+- Perform arithmetic and logical operations. 
+```js 
+let a = 10, b = 5; console.log(a + b);
 
+OUTPUT: 15
+```
+
+## LET’S PRACTICE YOUR KNOWLEDGE
+Now that you know JavaScript's history and its fundamentals, let’s test what you’ve learned!
+
+Write a simple program where you output a sentence of what you’ve learned about JavaScript.
+
+The output may look similar to this:
+JavaScript is like the brain of a website because it makes web pages interactive and dynamic.
 
