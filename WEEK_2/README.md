@@ -104,6 +104,22 @@ These operations handle interactions between the program and the user, such as d
 |Confirm Dialog|confirm()|
 |Alert Message|alert()|
 
+```javascript
+// This alert message shows a welcome message
+alert("Welcome to Programming Department!");
+
+// This gets the user input
+let name = prompt("What is your name?");
+let age = prompt("How old are you?");
+
+// Displays a greeting
+alert("Hello, " + name + "! You are " + age + " years old.");
+
+// Logs the details in the console
+console.log("User: " + name);
+console.log("Age: " + age);
+```
+
 ## LET’S PRACTICE YOUR KNOWLEDGE!
 Now that you know the different operations used in JavaScript, let us try a few by incorporating them in a simple program.
 
