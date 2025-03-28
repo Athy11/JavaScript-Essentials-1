@@ -5,14 +5,13 @@
 #### CONCEPTS TO APPLY
 | Feature | Description |
 | ----------- | ----------- |
-| Variables | Used to store important data such as PIN, balance, user choices, and number of attempts. |
-| Loops | Used to repeat the PIN verification process (up to 3 tries) and to continuously display the ATM menu until the user chooses to exit. |
-| Conditional Statements | Used to verify if inputs are valid, if PIN is correct, to handle deposit and withdrawal logic, and to check for errors like insufficient funds. |
-| Error Handling | Implemented using `try...catch` to catch invalid inputs, wrong menu selections, or incorrect operations such as withdrawing more than the balance. |
+| Variables | Will be used to store important data such as PIN, balance, user choices, and number of attempts. |
+| Loops | Will be used to repeat the PIN verification process, limit it up to 3 tries and continuously display the ATM menu until the user chooses to exit. |
+| Conditional Statements | Will be used to verify if inputs are valid, and if PIN is correct, to handle deposit and withdrawal logic, and to check for errors like insufficient funds. |
+| Error Handling | Implement it using `try-catch` to catch invalid inputs, wrong menu selections, or incorrect operations such as withdrawing more than the balance. |
 | User Input | Accepts dynamic input from the user using `prompt()` to enter PIN, deposit, withdraw amounts, and select menu options. |
 | Type Conversion | Converts string inputs from `prompt()` into numbers using `Number()` for correct mathematical calculations. |
-| String Interpolation | Displays user-friendly and readable messages using template literals (`` ` ``). |
-| Boolean Logic | Used to control authentication flow and determine whether the user can access the ATM or should be locked out. |
+| Boolean Logic | Will be used to control authentication flow and determine whether the user can access the ATM or should be locked out. |
 
 #### PROGRAM GUIDE
 - The user must enter the correct PIN before accessing the ATM (default PIN = 1234).
