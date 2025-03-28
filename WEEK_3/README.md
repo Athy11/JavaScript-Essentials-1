@@ -157,7 +157,9 @@ Caught an error: Invalid role!
 ```
 
 ### LET’S PRACTICE YOUR KNOWLEDGE!
+Now that you've learned the control flow in JavaScript, let's test your knowledge!
 
+Program a basic ATM program that can deposit, withdraw, and check the balance using conditional statement, loops, and/or error handling. 
 
 
 
