@@ -13,6 +13,7 @@ var university = "PUP";
 
 ### DATA TYPES
 In JavaScript there are eight data types and it is categorized into primitive and non-primitive types.
+
 **PRIMITIVE DATA TYPE** - Primitive types are immutable and stored directly in memory.
 | Data Type | Description | Example |
 | ----------- | ----------- | ----------- |
@@ -120,10 +121,6 @@ console.log("User: " + name);
 console.log("Age: " + age);
 ```
 
-## LET’S PRACTICE YOUR KNOWLEDGE!
-Now that you know the different operations used in JavaScript, let us try a few by incorporating them in a simple program.
-
-Create a program where you can utilize two (2) of the primitive data types while incorporating any of the operators/operations.
 
 
 
