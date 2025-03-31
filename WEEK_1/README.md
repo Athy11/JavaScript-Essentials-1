@@ -73,6 +73,7 @@ Now that you know JavaScript's history and its fundamentals, let’s test what y
 
 Write a simple program where you output a sentence of what you’ve learned about JavaScript.
 
+```js
 The output may look similar to this:
 JavaScript is like the brain of a website because it makes web pages interactive and dynamic.
-
+```
